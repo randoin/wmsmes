@@ -15,7 +15,7 @@ window.location.href = "<?php echo $url;?>";
 
 //******************************START OF EXPORT ********************************************
 
-//---------------UPDATE Berat ULD-------------------------------------------------
+//---------------------------UPDATE Berat ULD-------------------------------------------------
 if ($module=='beratuld' AND $act=='update')
 {
 	include "aksi/update-beratuld.php";
